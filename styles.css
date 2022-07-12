@@ -79,3 +79,9 @@ h2 {
 .input {
   width: 100%;
 }
+
+.githublink {
+  display: block;
+  margin-top: 10px;
+  margin-left: 210px;
+}
