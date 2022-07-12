@@ -1,0 +1,81 @@
+.container {
+  max-width: 1000px;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.humidity .feels-like .day-forecast {
+  font-family: "Quicksand", sans-serif;
+}
+
+#hero-image {
+  position: relative;
+  top: 100px;
+  width: 90px;
+}
+
+h1 {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 100px;
+}
+
+.date {
+  display: block;
+  position: relative;
+  top: -12px;
+  left: 100px;
+}
+
+.time {
+  display: block;
+  position: relative;
+  top: -34px;
+  left: 180px;
+}
+
+h2 {
+  display: block;
+  position: relative;
+  top: -30px;
+  left: 100px;
+}
+
+.humidity {
+  position: relative;
+  top: -80px;
+  left: 400px;
+}
+
+.feels-like {
+  display: block;
+  position: relative;
+  top: -79px;
+  left: 400px;
+}
+
+.future-forecast {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.day-forecast {
+  margin: auto 8px;
+  font-size: 18px;
+}
+
+.input {
+  width: 100%;
+}

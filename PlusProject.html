@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form id="search-engine">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  class="input"
+                  type="search"
+                  placeholder="Enter the city here"
+                  id="city-input"
+                />
+              </div>
+              <div class="col-2">
+                <input type="submit" value="Search" />
+              </div>
+              <div class="col-2" id="current-location-button">
+                <input type="submit" value="Current" />
+              </div>
+            </div>
+          </form>
+          <br />
+          <img src="src/sun.png" id="hero-image" />
+          <h1>Paris</h1>
+          <div class="date">Thursday</div>
+          <div class="time">08:19</div>
+          <h2>18°C</h2>
+
+          <small class="humidity">Humidity: 0%</small>
+          <small class="feels-like">Feels like: 18°C</small>
+
+          <section class="future-forecast">
+            <div class="row">
+              <div class="d-flex justify-content-center">
+                <div class="col-2 day-forecast">
+                  <p>
+                    Mon
+                    <br />
+                    <img src="src/sun-clouds.png" width="50px" />
+                    <br />
+                    16°C
+                    <br />
+                    26°C
+                  </p>
+                </div>
+                <div class="col-2 day-forecast">
+                  <p>
+                    Tue
+                    <br />
+                    <img src="src/rain.png" width="50px" />
+                    <br />
+                    12°C
+                    <br />
+                    18°C
+                  </p>
+                </div>
+                <div class="col-2 day-forecast">
+                  <p>
+                    Wed
+                    <br />
+                    <img src="src/wind.png" width="50px" />
+                    <br />
+                    14°C
+                    <br />
+                    26°C
+                  </p>
+                </div>
+                <div class="col-2 day-forecast">
+                  <p>
+                    Thu
+                    <br />
+                    <img src="src/thunder.png" width="50px" />
+                    <br />
+                    20°C
+                    <br />
+                    28°C
+                  </p>
+                </div>
+                <div class="col-2 day-forecast">
+                  <p>
+                    Fri
+                    <br />
+                    <img src="src/sun.png" width="50px" />
+                    <br />
+                    22°C
+                    <br />
+                    30°C
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
